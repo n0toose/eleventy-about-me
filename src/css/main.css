@@ -29,7 +29,6 @@ html, body, .container {
 	width: calc(30%);
 	padding: 30px;
 	margin: auto;
-	background: rgba(0, 0, 0, 0.3);
 	background-attachment: scroll;
 	font-family: 'Share Tech Mono', monospace;
 }
