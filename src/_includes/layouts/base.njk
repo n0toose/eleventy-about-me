@@ -27,20 +27,20 @@
 	    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
     </head>
     <body>
-		<body>
-	<div class="container">
-		<div class="box">
-			<section>
-				<div class="header">
-					<img src="{{ header_picture }}" class="icon">
+			<div class="container">
+				<div class="box">
+					<section>
+						<div class="header">
+						<img src="{{ header_picture }}" class="icon">
 				</div>
-				<p class="main"></p>
+				<div class="main">
 					{{ content | safe }}
-					<div class="bottom">
-						<p><a href="https://github.com/alwayslivid/eleventy-about-me">eleventy-about-me</a> by <strong><a href="https://alwayslivid.com">AlwaysLivid</a></strong> | Powered by <strong><a href="https://www.11ty.io/">Eleventy</a></strong>.</p>
-	        </div>
-				</section>	
+					</div>
+				</section>
 			</div>
 		</div>
+		<footer>
+			<p><strong><a href="https://github.com/alwayslivid/eleventy-about-me">eleventy-about-me</a></strong> by <strong><a href="https://alwayslivid.com">AlwaysLivid</a></strong> | Powered by <strong><a href="https://www.11ty.io/">Eleventy</a></strong>.</p>
+		</footer>
 	</body>	
 </html>

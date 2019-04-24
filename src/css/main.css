@@ -8,6 +8,8 @@ html {
 
 html, body, .container { 
 	height: 100%; 
+	text-align: center;
+	color: white;
 }
 
 .container {
@@ -27,8 +29,6 @@ html, body, .container {
 	width: calc(30%);
 	padding: 30px;
 	margin: auto;
-	text-align: center;
-	color: white;
 	background: rgba(0, 0, 0, 0.3);
 	background-attachment: scroll;
 	font-family: 'Share Tech Mono', monospace;
@@ -38,7 +38,7 @@ html, body, .container {
 	height: 128px;
 	width: 128px;
 	border-radius: 50%;
-	margin: 0%;
+	margin: 3%;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-drag: none;
@@ -46,31 +46,31 @@ html, body, .container {
 	-ms-user-select: none;
 }
 
-.box h1 {
+h1 {
 	display: block;
 	font-size: relative;
 	letter-spacing: 2px;
 	font-weight: 100px;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
-.box i {
+i {
 	font: italic;
 	text-decoration: none;
 	color: #FFFFFF;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
-.box a {
+a {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: relative;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
-div.bottom {
+footer {
 	font-size: 12px;
 }
