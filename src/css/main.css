@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-
 html, body, .container {
 	background-color: #000000; 
-	height: 100%; 
+	height: 100%;
+	margin: 0;
 	text-align: center;
-	color: #FFFFFF;
+	color: #FFFFFF
 }
-
 .container {
 	display: flex;
 	align-items: flex;
-	justify-content: flex;
+	justify-content: flex
 }
-
 .box {
 	display: flex;
 	flex-direction: row;
-	width: calc(30%);
+	width: 30%;
 	padding: 30px;
 	margin: auto;
 	background-attachment: scroll;
@@ -27,9 +25,8 @@ html, body, .container {
 	-webkit-flex-align: center;
 	-ms-flex-align: center;
 	-webkit-align-items: center;
-	font-family: 'Share Tech Mono', monospace;
+	font-family: 'Share Tech Mono', monospace
 }
-
 .icon {
 	height: 128px;
 	width: 128px;
@@ -39,35 +36,31 @@ html, body, .container {
 	-moz-user-select: none;
 	-webkit-user-drag: none;
 	-webkit-user-select: none;
-	-ms-user-select: none;
+	-ms-user-select: none
 }
-
 h1 {
 	display: block;
 	font-size: relative;
 	letter-spacing: 2px;
 	font-weight: 100;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px
 }
-
 i {
 	font: italic;
 	text-decoration: none;
 	color: #FFFFFF;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px
 }
-
 a {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: relative;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px
 }
-
 footer {
 	font-size: 12px;
-	font-family: 'Ubuntu', monospace;
+	font-family: 'Ubuntu', monospace
 }
