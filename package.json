@@ -1,0 +1,24 @@
+{
+  "name": "eleventy-about-me",
+  "version": "1.0.0",
+  "description": "Personal website template, built with Eleventy.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.0"
+  },
+  "scripts": {
+    "test": "npx eleventy --serve",
+    "build": "npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alwayslivid/eleventy-about-me.git"
+  },
+  "author": "AlwaysLivid",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/alwayslivid/eleventy-about-me/issues"
+  },
+  "homepage": "https://github.com/alwayslivid/eleventy-about-me#readme"
+}

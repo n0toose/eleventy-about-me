@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{{ title or metadata.title }}</title>
+	    <meta property="og:title" content="{{ title or renderData.title or metadata.title }}">
+	    <meta name="apple-mobile-web-app-title" content="{{ title or renderData.title or metadata.title }}">
+	    <meta name="twitter:title" content="{{ title or renderData.title  or metadata.title }}"> 
+		 <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+		 	<meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <meta name="format-detection" content="telephone=no">
+       <!-- Icon -->
+      <link rel="icon" type="image/png"  href="{{ favicon }}">
+	    <meta name="msapplication-TileColor" content="#ffffff">
+	    <meta name="theme-color" content="#000000">
+	    <!-- Description -->
+	    <meta name="description" content="{{ description }}">
+	    <meta property="og:description" content="{{ description }}">
+	    <meta name="twitter:description" content="{{ description }}">
+	    <!-- Twitter -->
+	    <meta name="twitter:card" content="summary">
+	    <!-- CSS -->
+	    <link rel="stylesheet" href="{{ '../css/main.css' | url }}">
+	    <!-- Scripts -->
+	    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    </head>
+    <body>
+		<body>
+	<div class="container">
+		<div class="box">
+			<section>
+				<div class="header">
+					<img src="{{ header_picture }}" class="icon">
+				</div>
+				<p class="main"></p>
+					{{ content | safe }}
+					<div class="bottom">
+						<p><a href="https://github.com/alwayslivid/eleventy-about-me">eleventy-about-me</a> by <strong><a href="https://alwayslivid.com">AlwaysLivid</a></strong> | Powered by <strong><a href="https://www.11ty.io/">Eleventy</a></strong>.</p>
+	        </div>
+				</section>	
+			</div>
+		</div>
+	</body>	
+</html>
