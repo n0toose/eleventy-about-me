@@ -1,6 +1,6 @@
 # eleventy-about-me
 
-> Personal website template built with Eleventy.
+> Personal website template built with Eleventy. Forked by Heika.
 
 ## Prerequisites
 
