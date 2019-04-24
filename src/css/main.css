@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-html {
-	background-color: #000000;
-	background-size: cover;
-	background-position: center;
-}
 
-html, body, .container { 
+html, body, .container {
+	background-color: #000000; 
 	height: 100%; 
 	text-align: center;
-	color: white;
+	color: #FFFFFF;
 }
 
 .container {
@@ -20,16 +17,16 @@ html, body, .container {
 
 .box {
 	display: flex;
-	-webkit-flex-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
-	justify-content: center;
 	flex-direction: row;
 	width: calc(30%);
 	padding: 30px;
 	margin: auto;
 	background-attachment: scroll;
+	align-items: center;
+	justify-content: center;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
 	font-family: 'Share Tech Mono', monospace;
 }
 
@@ -72,4 +69,5 @@ a {
 
 footer {
 	font-size: 12px;
+	font-family: 'Ubuntu', monospace;
 }
