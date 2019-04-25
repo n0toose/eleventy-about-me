@@ -69,21 +69,21 @@ a {
 	padding: 0px
 }
 
-footer {
-	font-family: 'Ubuntu', monospace;
-	position: fixed;
-	background-image: linear-gradient( rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 50%);
-	width: 100%;
-	bottom: 0;
-	left: 0
-};
-
 code {
 	font-family: 'Ubuntu Mono', monospace;
-	font-size: 12px;
 	background-color: #000;
 	border: 1px solid #eee;
 	display: inline;
 	margin: 5px;
 	padding: 10px
 }
+
+footer {
+	font-family: 'Ubuntu', monospace;
+	font-size: 12px;
+	position: fixed;
+	background-image: linear-gradient( rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 50%);
+	width: 100%;
+	bottom: 0;
+	left: 0
+};
