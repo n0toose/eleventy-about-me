@@ -1,4 +1,4 @@
-# eleventy-about-me
+# About Me
 
 > Personal website template built with Eleventy.
 
