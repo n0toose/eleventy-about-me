@@ -23,7 +23,8 @@ npx eleventy --input=./src --output=_site
 ## Authors
 
 * **Panos V.** - *Initial work.* - [AlwaysLivid](https://alwayslivid.com)
-* **Heika** - *CSS Refactoring.* - [Heika](https://github.com/heikadog)
+
+* **Heika** - *CSS refactoring and bug fixes.* - [Heika](https://github.com/heikadog)
 
 ### License
 
