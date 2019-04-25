@@ -1,8 +1,0 @@
-{
-  "layout": "base",
-  "url": "https://example.com",
-  "title": "About Me",
-  "description": "Here's everything you need to know about me!",
-  "header_picture": "./assets/images/image.png",
-  "favicon": "./assets/icons/favicon.png"
-}
