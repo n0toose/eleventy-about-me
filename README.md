@@ -5,7 +5,7 @@
 ## Prerequisites
 
 * [node.js](https://nodejs.org) (8.0+) 
-* [Eleventy](https://11ty.io) (8.0+)
+* [Eleventy](https://11ty.io) (0.8.0+)
 
 ## Running Locally
 
@@ -39,3 +39,5 @@ Attribution is immensely appreciated, however, it is not required in any capacit
 ### Preview
 
 A live preview of this template can be found [here](https://alwayslivid.github.io/eleventy-about-me/).
+
+![image](https://user-images.githubusercontent.com/30193966/56771600-c69b6d00-67bf-11e9-8add-934238d4edc2.png)
