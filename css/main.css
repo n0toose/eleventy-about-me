@@ -3,10 +3,10 @@
 
 
 html, body, .container {
-	background-color: #000000; 
-	height: 100%; 
 	text-align: center;
-	color: #FFFFFF
+	color: #eee;
+	background-color: #000; 
+	height: 100%; 
 }
 
 .container {
@@ -16,62 +16,74 @@ html, body, .container {
 }
 
 .box {
+	font-family: 'Share Tech Mono', monospace;
 	display: flex;
 	flex-direction: row;
-	width: calc(30%);
-	padding: 30px;
-	margin: auto;
 	align-items: center;
 	justify-content: center;
 	-webkit-flex-align: center;
 	-ms-flex-align: center;
 	-webkit-align-items: center;
-	font-family: 'Share Tech Mono', monospace
+	width: 30%;
+	margin: auto;
+	padding: 30px
 }
 
 .icon {
-	height: 128px;
-	width: 128px;
 	border-radius: 50%;
-	margin: 3%;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-drag: none;
 	-webkit-user-select: none;
-	-ms-user-select: none
+	-ms-user-select: none;
+	height: 128px;
+	margin: 3%
 }
 
-h1, h2, h3, h4, h5, {
+h1 {
+	font-weight: bold;
 	display: block;
-	font-size: relative;
 	letter-spacing: 2px;
-	font-weight: 100;
+	margin: 0px;
+	padding: 0px
+}
+
+h2, h3, h4, h5, h6 {
+	display: block;
 	margin: 0px;
 	padding: 0px
 }
 
 i {
 	font: italic;
-	text-decoration: none;
-	color: #FFFFFF;
+	color: #eee;
 	margin: 0px;
 	padding: 0px
 }
 
 a {
+	font-weight: bold;
 	text-decoration: none;
-	color: #FFFFFF;
-	font-size: relative;
+	color: #eee;
 	margin: 0px;
 	padding: 0px
 }
 
 footer {
-	font-size: 12px;
 	font-family: 'Ubuntu', monospace;
 	position: fixed;
+	background-image: linear-gradient( rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 50%);
+	width: 100%;
 	bottom: 0;
-	left: 0;
-	height: 40px;
-	width: 100%
+	left: 0
+};
+
+code {
+	font-family: 'Ubuntu Mono', monospace;
+	background-color: #000;
+	border: 1px solid #eee;
+	display: inline;
+	text-align: left;
+	margin: 5px;
+	padding: 10px
 }
