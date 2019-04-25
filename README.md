@@ -35,3 +35,7 @@ Please consult the [LICENSE](LICENSE) file for more details.
 ### Attribution
 
 Attribution is immensely appreciated, however, it is not required in any capacity.
+
+### Preview
+
+A live preview of this template can be found [here](https://alwayslivid.github.io/eleventy-about-me/).

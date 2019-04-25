@@ -30,7 +30,7 @@
 				<div class="box">
 					<section>
 							<div class="header">
-							<img src="{{ header_picture }}" class="icon">
+							<img src="{{ header_picture }}" class="icon" alt="{{ header_picture_description }}">
 							</div>
 						<div class="main">
 							{{ content | safe }}
@@ -39,7 +39,9 @@
 			</div>
 		</div>
 		<footer>
-			<p><strong><a href="https://github.com/alwayslivid/eleventy-about-me">eleventy-about-me</a></strong> by <strong><a href="https://alwayslivid.com">AlwaysLivid</a></strong> | Powered by <strong><a href="https://www.11ty.io/">Eleventy</a></strong>.</p>
+			<p>
+				<a href="https://github.com/alwayslivid/eleventy-about-me">eleventy-about-me</a> by <a href="https://alwayslivid.com">AlwaysLivid</a> | Powered by <a href="https://www.11ty.io/">Eleventy</a>.
+			</p>
 		</footer>
 	</body>	
 </html>
