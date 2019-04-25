@@ -80,6 +80,7 @@ footer {
 
 code {
 	font-family: 'Ubuntu Mono', monospace;
+	font-size: 12px;
 	background-color: #000;
 	border: 1px solid #eee;
 	display: inline;
