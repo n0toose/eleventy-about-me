@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+@media screen and (orientation: landscape) {
+	.box {
+		width: 30%;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	.box {
+		width: 70%;
+	}
+}
 
 html, body, .container {
 	text-align: center;
@@ -19,7 +30,6 @@ html, body, .container {
 	font-family: 'Share Tech Mono', monospace;
 	display: flex;
 	flex-direction: row;
-	width: 30%;
 	margin: auto;
 	padding: 30px;
 	align-items: center;
