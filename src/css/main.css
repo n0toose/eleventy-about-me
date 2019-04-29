@@ -3,13 +3,24 @@
 
 @media screen and (orientation: landscape) {
 	.box {
-		width: 30%;
+		width: 40%
+	}
+	.content, h1, h2, h3, h4, h5, h6 {
+		text-align: justify
+	}
+	.icon {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
 @media screen and (orientation: portrait) {
 	.box {
 		width: 70%;
+	}
+	.content, h1, h2, h3, h4, h5, h6 {
+		text-align: center;
 	}
 }
 
@@ -48,6 +59,11 @@ html, body, .container {
 	-webkit-user-drag: none;
 	-webkit-user-select: none;
 	-ms-user-select: none
+}
+
+ul, li {
+	margin-left: 0; 
+	padding-left: 0
 }
 
 h1 {

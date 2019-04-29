@@ -4,7 +4,9 @@ Lorem ipsum dolor sit amet, ***consectetur adipiscing elit***, sed do eiusmod te
 
 ## Header 2
 
-Ut enim ad minim veniam [quis nostrud exercitation](https://example.com), [ullamco laboris nisi ut aliquip](https://example.com), [ex ea commodo consequat](https://example.com).
+*Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+
+Ut enim ad minim veniam:
 
 ### Header 3
 
@@ -12,4 +14,7 @@ Ut enim ad minim veniam [quis nostrud exercitation](https://example.com), [ullam
 
 #### Header 4
 
-*Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+Quis nostrud exercitation:
+
+* Ullamco laboris nisi ut [aliquip](https://example.com)
+* Ex ea commodo [consequat](https://example.com).
