@@ -23,25 +23,23 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ './css/main.css' | url }}">
+  {% set css %}
+    {% include "css/main.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+<script>
 </head>
 <body>
   <div class="container">
     <div class="box">
       <section>
-        <div class="header">
-          <img src="{{ header_picture }}" class="icon" alt="{{ header_picture_description }}">
-        </div>
+        {% include "components/header.njk" %}
         <div class="content">
           {{ content | safe }}
         </div>
       </section>
     </div>
   </div>
-  <footer>
-    <p>
-      <a href="https://github.com/alwayslivid/eleventy-about-me">About Me</a> by <a href="https://alwayslivid.com">AlwaysLivid</a> | Powered by <a href="https://www.11ty.io/">Eleventy</a>.
-    </p>
-  </footer>
+  {% include "components/footer.njk" %}
 </body>	
 </html>
