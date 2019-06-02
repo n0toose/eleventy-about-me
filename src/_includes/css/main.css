@@ -3,25 +3,27 @@
 
 @media screen and (orientation: landscape) {
 	.box {
-		width: 40%
+		width: 40%;
 	}
+}
 
 @media screen and (orientation: portrait) {
 	.box {
 		width: 70%;
 	}
+}
 
 html, body, .container {
 	text-align: center;
 	color: #eee;
 	background-color: #000; 
-	height: 100%
+	height: 100%;
 }
 
 .container {
 	display: flex;
 	align-items: flex;
-	justify-content: flex
+	justify-content: flex;
 }
 
 .box {
@@ -34,7 +36,7 @@ html, body, .container {
 	justify-content: center;
 	-webkit-flex-align: center;
 	-ms-flex-align: center;
-	-webkit-align-items: center
+	-webkit-align-items: center;
 }
 
 .icon {
@@ -45,12 +47,12 @@ html, body, .container {
 	-moz-user-select: none;
 	-webkit-user-drag: none;
 	-webkit-user-select: none;
-	-ms-user-select: none
+	-ms-user-select: none;
 }
 
 ul, li {
 	margin-left: 0; 
-	padding-left: 0
+	padding-left: 0;
 }
 
 h1 {
@@ -58,20 +60,20 @@ h1 {
 	display: block;
 	letter-spacing: 2px;
 	margin: 0px;
-	padding: 0px
+	padding: 0px;
 }
 
 h2, h3, h4, h5, h6 {
 	display: block;
 	margin: 0px;
-	padding: 0px
+	padding: 0px;
 }
 
 i {
 	font: italic;
 	color: #eee;
 	margin: 0px;
-	padding: 0px
+	padding: 0px;
 }
 
 a {
@@ -79,7 +81,7 @@ a {
 	text-decoration: none;
 	color: #eee;
 	margin: 0px;
-	padding: 0px
+	padding: 0px;
 }
 
 code {
@@ -88,7 +90,7 @@ code {
 	border: 1px solid #eee;
 	display: inline;
 	margin: 5px;
-	padding: 10px
+	padding: 10px;
 }
 
 footer {
@@ -98,5 +100,5 @@ footer {
 	background-image: linear-gradient( rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 50%);
 	width: 100%;
 	bottom: 0;
-	left: 0
-};
+	left: 0;
+}

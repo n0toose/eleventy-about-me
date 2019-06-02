@@ -1,7 +1,10 @@
-﻿_11ty
+_11ty
 _attic/
 *nogit*
 README.md
 LICENSE
 package-lock.json
 package.json
+_site
+.directory
+

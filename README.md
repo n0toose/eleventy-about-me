@@ -15,14 +15,14 @@
 
 ```bash
 npm install
-npx eleventy --input=./src --output=_site
+npx eleventy
 ```
 
 * Your website will be placed inside of the `_site` folder and will be ready for deployment.
 
 ## Authors
 
-* **Panos V.** - *Initial work.* - [AlwaysLivid](https://alwayslivid.com)
+* **Panos "AlwaysLivid" Vasilopoulos** - *Initial work.* - [AlwaysLivid](https://alwayslivid.com)
 
 * **Heika** - *CSS refactoring and bug fixes.* - [Heika](https://github.com/heikadog)
 
