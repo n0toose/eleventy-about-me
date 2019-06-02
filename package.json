@@ -1,6 +1,6 @@
 {
   "name": "eleventy-about-me",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Personal website template, built with Eleventy.",
   "main": "index.js",
   "dependencies": {},
