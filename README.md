@@ -1,4 +1,5 @@
 # About Me
+[![Build Status](https://img.shields.io/travis/alwayslivid/eleventy-about-me.svg?style=flat-square)](https://travis-ci.org/alwayslivid/eleventy-about-me)
 
 > Personal website template built with Eleventy.
 

@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 8
+before_script:
+  - npm install @11ty/eleventy -g
+  - npm install
+  - eleventy
+script: eleventy
+deploy:
+  local-dir: _site
+  skip-cleanup: true
+  provider: pages
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
