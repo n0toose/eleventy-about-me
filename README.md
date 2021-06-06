@@ -1,5 +1,4 @@
 # About Me
-[![Build Status](https://img.shields.io/travis/alwayslivid/eleventy-about-me.svg?style=flat-square)](https://travis-ci.org/alwayslivid/eleventy-about-me)
 
 > Personal website template built with Eleventy.
 
@@ -23,22 +22,22 @@ npx eleventy
 
 ## Authors
 
-* **Panos "AlwaysLivid" Vasilopoulos** - *Initial work.* - [AlwaysLivid](https://alwayslivid.com)
+* [**Panos "AlwaysLivid" Vasilopoulos**](https://alwayslivid.com)
 
-* **Heika** - *CSS refactoring and bug fixes.* - [Heika](https://github.com/heikadog)
+### Contributors
+
+* [**Heika**](https://github.com/heikadog) - *CSS refactoring and bug fixes.*
 
 ### License
 
-This repository is licensed under the *Unlicense* license, which, in short, means that the contents of this repository are a part of the public domain. This means that you are free to modify, sell, compile, and distribute this repository however you wish.
-
-Please consult the [LICENSE](LICENSE) file for more details.
-
-### Attribution
+This repository is licensed under the *Unlicense* license, which, in short, means that the contents of
+this repository are a part of the public domain. This means that you are free to modify, sell, compile,
+and distribute this repository however you wish.
 
 Attribution is immensely appreciated, however, it is not required in any capacity.
 
-### Preview
+Please consult the [LICENSE](LICENSE) file for more details.
 
-A live preview of this template can be found [here](https://alwayslivid.github.io/eleventy-about-me/).
+### Screenshot
 
 ![image](https://user-images.githubusercontent.com/30193966/56771600-c69b6d00-67bf-11e9-8add-934238d4edc2.png)
