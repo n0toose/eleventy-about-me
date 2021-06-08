@@ -4,8 +4,8 @@
 
 ## Prerequisites
 
-* [node.js](https://nodejs.org) (8.0+) 
-* [Eleventy](https://11ty.io) (0.8.0+)
+* [node.js](https://nodejs.org)
+* [Eleventy](https://11ty.io)
 
 ## Running Locally
 
