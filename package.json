@@ -1,6 +1,6 @@
 {
   "name": "eleventy-about-me",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Personal website template, built with Eleventy.",
   "main": "index.js",
   "dependencies": {
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alwayslivid/eleventy-about-me.git"
+    "url": "git+https://github.com/panos/eleventy-about-me.git"
   },
-  "author": "AlwaysLivid",
+  "author": "Panagiotis Vasilopoulos",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/alwayslivid/eleventy-about-me/issues"
+    "url": "https://github.com/panos/eleventy-about-me/issues"
   },
-  "homepage": "https://github.com/alwayslivid/eleventy-about-me#readme"
+  "homepage": "https://github.com/panos/eleventy-about-me#readme"
 }
