@@ -20,14 +20,6 @@ npx eleventy
 
 * Your website will be placed inside of the `_site` folder and will be ready for deployment.
 
-## Authors
-
-* [**Panos "AlwaysLivid" Vasilopoulos**](https://alwayslivid.com)
-
-### Contributors
-
-* [**Heika**](https://github.com/heikadog) - *CSS refactoring and bug fixes.*
-
 ### License
 
 This repository is licensed under the *Unlicense* license, which, in short, means that the contents of
